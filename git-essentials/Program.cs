@@ -10,6 +10,12 @@ namespace git_essentials
     {
         static void Main(string[] args)
         {
+            DummyMethod();
+        }
+
+        private static void DummyMethod()
+        {
+            throw new NotImplementedException();
         }
     }
 }
